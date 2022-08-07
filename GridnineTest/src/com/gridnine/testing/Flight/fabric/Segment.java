@@ -22,14 +22,6 @@ import java.util.Objects;
         return arrivalDate;
     }
 
-    public boolean FlightIsMoreTwoHours (LocalDateTime departureDate, LocalDateTime arrivalDate) {
-        boolean flightDuration = false;
-        if (arrivalDate.minusHours(2).isBefore(departureDate)) {
-            flightDuration = true;
-        }
-          return flightDuration;
-      }
-
     @Override
     public String toString() {
         DateTimeFormatter fmt =

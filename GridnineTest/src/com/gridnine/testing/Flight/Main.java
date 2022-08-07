@@ -14,6 +14,6 @@ public class Main {
         System.out.println(flightBuilder.createFlights());
         System.out.println(flightsFilter.findAfterCurrentTime(flightBuilder.createFlights()));
         System.out.println(flightsFilter.excludeArrivalAfterDeparture(flightBuilder.createFlights()));
-        System.out.println(flightsFilter.findMoreTwoHoursDuration(flightBuilder.createFlights()));
+        System.out.println(flightsFilter.findMoreTwoHoursGroundDuration(flightBuilder.createFlights()));
     }
 }

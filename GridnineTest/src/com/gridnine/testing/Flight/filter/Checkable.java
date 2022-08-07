@@ -10,5 +10,5 @@ import java.util.List;
 public interface Checkable {
     public List<Flight> findAfterCurrentTime(List<Flight> createFlights);
     public List<Flight> excludeArrivalAfterDeparture(List<Flight> createFlights);
-    public List<Flight> findMoreTwoHoursDuration(List<Flight> createFlights);
+    public List<Flight> findMoreTwoHoursGroundDuration(List<Flight> createFlights);
 }

@@ -1,7 +1,5 @@
 package com.gridnine.testing.Flight.fabric;
 
-import com.gridnine.testing.Flight.fabric.Flight;
-
 import java.time.LocalDateTime;
 import java.util.*;
 
