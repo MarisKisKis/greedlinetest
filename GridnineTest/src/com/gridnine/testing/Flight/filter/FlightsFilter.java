@@ -3,8 +3,6 @@ package com.gridnine.testing.Flight.filter;
 import com.gridnine.testing.Flight.fabric.Flight;
 import com.gridnine.testing.Flight.fabric.Segment;
 
-
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
